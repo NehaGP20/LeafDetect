@@ -133,25 +133,31 @@ Selectable menu & Description on cucumber plant
 
 ![](Images/1.png)
 
-biological features of cucumber & various seeds of cucumber crop
+
+Biological features of cucumber & various seeds of cucumber crop
 
 ![](Images/2.png)
 
-directions of growing cucumber & various diseases commonly found on cucumber app
+
+Directions of growing cucumber & various diseases commonly found on cucumber app
 
 ![](Images/3.png)
 
-pest control on cucumber & Fertilizers that can cure diseases on cucumber
+
+Pest control on cucumber & Fertilizers that can cure diseases on cucumber
 
 ![](Images/4.png)
+
 
 Organic Fertilizers to offer & Detection of leaf infection using image processing – in this page the selection of the leaf image is done
 
 ![](Images/5.png)
 
+
 The image of a crop or leaf is selected and then sent for processing & The result of the infection is given here
 
 ![](Images/6.png)
+
 
 This is a shopping page for the purchase of the fertilizers & The checkout page after shopping of fertilizers
 
