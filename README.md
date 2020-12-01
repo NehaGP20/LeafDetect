@@ -50,6 +50,7 @@ The below mentioned are the features of the application.
  
 # Block Diagram
 
+![](Images/Block.png)
 
 # Design Method
 
@@ -76,6 +77,8 @@ In the initial step, the RGB images of all the leaf samples were picked up. The 
 • Color Transformation:
 
 HSI (hue, saturation, intensity) color model is a popular color model because it is based on human perception. After transformation, only the H (hue) component of HSI colour space is taken into account since it provides us with the required information.
+
+![](Images/ColorTrasf.png)
 
 • Masking Green Pixels:
 
@@ -111,7 +114,46 @@ It involves analyzing the labelled training sets to predict unlabeled test set (
 
 Samples of leaves with various diseases like early scorch, yellow spots, brown spots, late scorch, bacterial and fungal diseases are shown in figure below.
 
+Bacterial Diseases in Rose & Beans leaf
+
+![](Ds1.png)
+
+Sun burn-lemon leaf & Early scorch-banana
+
+![](Ds2.png)
+
+Late scorch-beans & Fungal-beans leaf
+
+![](Ds3.png)
+
 # Screenshots
 
 
+Selectable menu & Description on cucumber plant
+
+![](1.png)
+
+biological features of cucumber & various seeds of cucumber crop
+
+![](2.png)
+
+directions of growing cucumber & various diseases commonly found on cucumber app
+
+![](3.png)
+
+pest control on cucumber & Fertilizers that can cure diseases on cucumber
+
+![](4.png)
+
+Organic Fertilizers to offer & Detection of leaf infection using image processing – in this page the selection of the leaf image is done
+
+![](5.png)
+
+The image of a crop or leaf is selected and then sent for processing & The result of the infection is given here
+
+![](6.png)
+
+This is a shopping page for the purchase of the fertilizers & The checkout page after shopping of fertilizers
+
+![](7.png)
 
