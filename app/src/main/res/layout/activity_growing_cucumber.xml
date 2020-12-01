@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GrowingCucumber"
+    android:background="@drawable/bc"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Growing Cucumber"
+            android:fontFamily="@font/font4"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textSize="26dp"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/growing1"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="It is possible to grow cucumbers in both seedling and seedless ways. They are hypersensitive to cold, and good seed germination depends on the temperature of the soil. It should be at least +14°C.Cucumbers can be successfully grown on various soil types with sufficient aeration and drainage, although they grow best on light and rich in humus. The experience of many gardeners has shown that they respond well to the introduction of various organic fertilizers that improve the structure of the soil. You should not grow cucumbers in one place more often than once in 5 years, otherwise they will be highly susceptible to disease. The best predecessors:corn, tomatoes, peas and early potatoes. When growing cucumbers, they must be regularly supplied with various nutrients"
+                    android:textSize="16dp"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Growing cucumbers in a seedling way"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/growing2"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="Seedlings method of cultivation makes it possible to significantly accelerate fruiting. So, in the open ground, the first harvest of cucumbers grown by the seedling method can be obtained 2 weeks earlier than cucumbers grown in the usual way. During planting, plants should have 3-4 true leaves, that is, to be at 2-3 weeks of age."
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="
+For the cultivation of cucumber seedlings need:"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/growing3"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"
+                    android:text="- Take full-sized large seeds that have passed pre-sowing warm-up (for this you need to hold them for a month near heating devices at a temperature of about +25 ° C). Heated in this way the seeds will give the most friendly shoots, the plants will start to bear fruit earlier and will produce less hollow flowers.
+- Then the seeds must be decontaminated: for this you can use the infusion of garlic pulp - 100 g of water (cold) 30 g of garlic pulp. Keep the seeds in this infusion hour.
+- After this, we put them in bags of cloth and soak for 12 hours in a nutrient solution: 1l of water + 1 tea. spoon of sifted wood ash and nitrophoska.
+- Then, after washing with clean water, we place them on a slightly damp cloth and keep it at a temperature of +20 ° C for about 2 days until complete swelling. Take care that the seeds do not germinate, they should only be slightly inclined,
+- The last stage of pre-sowing treatment of cucumber seeds is to put them in a fridge for a day."
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/growing4"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="Cucumber seeds are sown to get seedlings, throughout April
+- in small containers about 10-12 cm high.
+- Nutritional soil mixture should be prepared in advance: 1 part of sawdust (we use small and old) + 2 parts of humus and peat. At 10 liters of this mixture, add 1.5 tablespoons nitrofoska and 2 tablespoon wood ash.
+- Mix the soil mix well, fill the containers to the top with it, sow germinated seeds (by capacity) and pour them a little.
+Seedlings will be ready in 27-32 days.
+-When the seedlings will have 2 true leaves, it must be fed with a special solution: mix 3 liters of warm (about +20 °C) water + 3 teaspoons of nitroammofoski or nitrophoska.
+- Throughout the entire period of growing cucumber seedlings pour water 1 time per week, shedding capacity completely"
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Sowing and planting cucumber seedlings"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="The best soil will be a mixture: 1 part sawdust, humus, peat and sod land (1:1:1: 1). But, as we have said, almost any land is suitable for growing cucumbers."
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/growing5"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="Having formed the beds, we water them with a solution:
+10 liters of hot (+80°C...+90°C) water + 1 teaspoon of copper sulphate, spend about 3 liters per 1 m2, and leave for a day. On the day of planting cucumber seedlings or sowing seeds on ridges, we make holes, which are about 4 cm deep, with a distance of about 60 cm from each other. We put the seeds in the wells, sprinkle them on top with soil and water, and plant the seedlings vertically."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Cucumber Care"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="Cucumber beds should always be clean from weeds. During the first 3 weeks, while the plants are small, carefully loosen the soil to a depth of 2-4 cm. In the future, loosening should be carried out at least once a week.
+During the growth and formation of fruits cucumbers need a lot of water. To obtain the highest yield, irrigate using warm water: before flowering - every 6-8 days, during fruiting - every 3-4 days."
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/growing6"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="If the water does not seep well, make forks between the rows with a pitchfork, such loosening will not disturb the root system of the plants. You can not water cucumbers with a strong jet of a hose, you only need to water the soil, not the plants themselves." />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

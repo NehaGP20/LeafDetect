@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seeds"
+    android:background="@drawable/bc"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     Seeds"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:fontFamily="@font/font4"
+            android:textSize="28dp"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="The best varieties of cucumbers"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The best varieties of cucumbers for open and closed ground - photos and descriptions"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Below is a selection of varieties and hybrids, on which gardeners most often stop, having plenty of experimenting with new promising varieties."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Zozulya F1"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed1"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="One of the most delicious and fragrant varieties. Flowers are mostly female, does not need pollination (parthenocarpic hybrid).
+
+Productivity makes 8-16kg / sq.m. When early planting fruits better bee pollinating. For cultivation in the greenhouse, and also in room conditions.
+
+Early ripe variety, from germination to fruiting 45-50 days.
+
+Salad variety cucumber."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Vyaznikovsky - 37"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed2"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="The ancient Russian variety of the Vladimir region, improved Gribovskoy vegetable breeding station. For open ground.
+
+From the first shoots to fruiting - 50 days.
+
+Treats universal grades: it is suitable for the fresh use, and also for processing and conservation."
+                    />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="Lukhovitsy F1"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed3"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="In the suburban town of Lukhovitsy stands a monument to a cucumber of this variety. From the first shoots to fruiting
+
+- 45-50 days. It is intended both for an open ground (under temporary film shelter), and for the closed ground.
+
+The hybrid has high resistance to true and downy mildew, root rot. It is suitable both for the fresh use, and for conservation."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Connie F1"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed4"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="
+From the first shoots to fruiting 47-50 days, does not need pollination (parthenocarpic hybrid), beam formation of the ovaries, yield 14-16 kg / m2. Resistant to powdery mildew and root rot.
+
+The universal hybrid, is suitable both for the fresh use, and for conservation."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Patti F1"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed5"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="From the first shoots to fruiting 40-45 days, parthenocarpic (does not require pollination) hybrid for open ground and film shelters. Female type of flowering and beam arrangement of ovaries, yield up to 25 kg / m2
+
+Possesses complex disease resistance, suitable for salting and canning."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Claudia F1"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed6"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="
+From the first shoots to fruiting 50-52 days, female type of flowering, the fruits are tied without pollination (parthenocarpic hybrid), yield 25-27kg open and closed ground. / sq. Suitable for
+
+The universal hybrid, is suitable both for the fresh use, and for conservation. Possesses complex resistance to diseases."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Herman F1"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed7"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="From the first shoots to fruiting 45 days, parthenocarpic (does not require pollination), a hybrid for open ground and film shelters. Resistance to cladosporium, false and powdery mildew, as well as cucumber mosaic virus.
+
+The universal hybrid, is suitable both for the fresh use, and for conservation."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="April TSHA 98 F1"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed8"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="From the first shoots to fruiting 45-50 days, mostly female type of flowering, the fruits are tied without pollination (parthenocarpic hybrid), yield 7-13 kg/ sq. However, fruits are better with bee pollinating, especially during early plantings.
+
+Suitable for growing in a greenhouse, as well as in room conditions. Possesses complex resistance to diseases. The universal hybrid, is suitable both for the fresh use, and for conservation."
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Libelle F1"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed9"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="German hybrid, acquired a second home in Russia. From the first shoots to fruiting 49-52 days. Suitable for open ground.
+
+The universal hybrid, is suitable both for the fresh use, and for conservation. Comprehensive disease resistance."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Nezhinsky 12"
+                    />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/seed10"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="From the first shoots to fruiting 47-67 days, bee-pollinating, suitable for open ground and temporary film shelters.
+
+Resistant to olive spot and bacteriosis. One of the best varieties for salting and canning.
+
+Varieties of cucumbers for greenhouses and open ground The division of varieties into those intended for cultivation in the greenhouse and in the open field is rather arbitrary, especially when it comes to the cultivation of cucumbers on an industrial scale. One way or another, they will both bear fruit (both in the greenhouse and in the open field).
+
+More often for gardeners, taste and trouble-free cultivation become much more important."
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Varieties of cucumbers for greenhouses and open ground"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:text="The division of varieties into those intended for cultivation in the greenhouse and in the open field is rather arbitrary, especially when it comes to the cultivation of cucumbers on an industrial scale. One way or another, they will both bear fruit (both in the greenhouse and in the open field).
+
+More often for gardeners, taste and trouble-free cultivation become much more important."
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

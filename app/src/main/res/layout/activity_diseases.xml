@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diseases"
+    android:background="@drawable/bc"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Diseases of Cucumber"
+            android:fontFamily="@font/font4"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textSize="26dp"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Root rot"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases1"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Description"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Cucumber leaves began to wither, withering more and more every day, and gradually dry up? Do the roots of a plucked plant look rotten and red? This means that the plants are infected with root rot - one of the most common and dangerous diseases."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The reason for the development of root decay is unfavorable conditions during the growth and fruiting of plants. In particular, we are talking about excessively high temperatures and insufficient or excessive watering, especially watering with cold water."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- observe crop rotation and not thicken the crops"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="  - remove plant residues from the beds;"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- Do not water the plants with cold water and treat them with Previcur solution every 2 weeks for prophylaxis."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="As soon as you find that plants are affected by root rot, the first thing to do is to stimulate the formation of new roots."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text=" To do this, sprinkle a five-centimeter layer of fertile soil around the plants. This will give them the opportunity to take new roots. Or cut the leaves from the bottom of the stem and place it in a layer of fertile soil. Literally in 7-10 days, additional roots will grow on the showered shoots. All this time, water the plants only with warm water and not under the root.If you were able to detect the disease only when the plant is already withered, you will not be able to save it - just dig it along with the ground, filling the new fertile soil into the formed hole. After harvesting diseased plants and soil, it is necessary to wash the entire instrument in a strong soap solution."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Anthracnose"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases2"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Description"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Numerous brown spots appeared on leaves, stalks and even fruits? The affected leaves began to dry out gradually, and the fruits were covered with wet ulcers? Recognizing the disease is not so difficult - the plants are infected with anthracnose or, as it is often called, cooper."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The cause of the copepod is most often infected seeds, which are collected from diseased plants, or a fungus that persists in the upper layer of soil and plant debris. In addition, the rapid spread of the disease contributes to watering plants with cold water and rapid temperature changes."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="- observe crop rotation and not return cucumbers to their former place earlier than after 4 years;
+                              - timely remove plant residues from the beds and process the soil qualitatively."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- Once a week before harvesting, spray crops with 1% Bordeaux mixture;
+- thoroughly treat all affected areas with a solution of copper sulphate (0.5% m), then sprinkle with lime or coal."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Mealy dew"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases3"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Description"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="On the leaves or stalks of cucumbers appeared white (less often - slightly reddish) mealy patina in the form of small spots? Over time, the plaque does not pass, but spreads over the whole leaf, after which it begins to turn yellow and dry gradually? This powdery mildew is a mushroom disease of cucumbers. Its consequence is the premature drying of the leaves and the cessation of fruiting."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The causative agents of the disease, wintering on organic residues, are particularly rapidly spreading in overcast and cool weather. If the average daily temperature rises above +18 . + 20°C, the powdery mildew stops its development.The disease most often affects plants that are =overfed=
+with nitrogen fertilizers, as well as those that are irrigated irregularly and insufficiently."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="
+- observe crop rotation; do not plant cucumbers in one place for several years in a row. Remember: a cucumber can be returned to its original place no earlier than after 4 roga;to remove in time from the beds not only cucumbers, but also all plant residues;
+- disinfect greenhouses and greenhouses immediately after the harvest. For this you can use, for example, formalin solution;
+- raise the temperature to +23... +25 C, simply closing the greenhouse for the night or covering the plants with a film;
+- to water plants only with warm water,
+- grow powdery mildew resistant hybrids.
+"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="As soon as you notice the first signs of powdery mildew, immediately spray the plants with fungicides, such as topsin.
+Or treat them with a solution of the preparation TOPAZ, for the preparation of which mix 2 ml of the preparation with 10 liters of warm water. Spraying is carried out in windless dry weather for the prevention of the disease, and at the first signs of its occurrence.
+Good results in the fight against powdery mildew are obtained by treating plants with the =HOM= preparation (copper oxychloride solution). To prepare the solution, take 40 g of powder and dilute it in 10 liters of water. Spray the plants, using 1 liter of the resulting solution for 10 m?.
+You can treat the plants with colloidal sulfur using a 20 solution in open ground (20 g of colloidal sulfur per 10 liters of water) and a 40 solution of green ground (40 liters of colloidal sulfur per 10 liters of water). The resulting solution to process the leaves of the plant in cloudy weather on both slides."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:padding="10dp"
+                    android:text="Downy Mildew - Peronospora Problem"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases4"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Description"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Did small, but light yellow spots appear on cucumber leaves? Last week - the spots increased in size, and the leaves themselves turned brown and began to dry out? This means that cucumbers are infected with powdery mildew, or peronosporosis, a very dangerous and widespread disease that can affect plants at any stage of their development."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="The cause of the disease is a fungus that rapidly develops at high humidity. To provoke its growth can and watering plants with cold water."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Observe agricultural practices: do not thicken the crops, maintain crop rotation, collect fruits in a timely manner and do not water the plants with cold water."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="Finding the first signs of the disease, stop watering and feeding. To stop the spread of downy powdery mildew, treat the plants with warm (about + 25 ° C) solution of polycarbacin, copper oxychloride or Bordeaux liquids (mix 100 g of copper sulphate and fresh lime with 10 liters of warm (about +25 °C) water). "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="Also, to combat downy mildew, the drugs Ordan and Ridomil are used. After processing the plants, try to ensure that the temperature inside the greenhouse or greenhouse does not fall below + 25 C. If you grow cucumbers in the open field, just cover them with film at night."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="For the prevention of powdery mildew, it is useful to periodically process plants with a solution of whey."/>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Cladosporiosis - Brown Olive Spotted Problem"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases5"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Description"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Cladosporiosis develops rapidly in cool rainy weather and with sudden changes in temperature. In the hot summer, the brown olive spot appears already at the end of the growing season - when the nights are cool, a large amount of dew falls out. The infection spreads with rain, wind, water during irrigation and remains for a long time not only on the plant residues, but also in the soil."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="The source of plant contamination with cladosporioides is plant residues - more correctly, the spores of the fungus that cause the disease, which winter on them."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="20dp"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="To avoid infestation of plants with Cladosporium, you must:
+- observe crop rotation and not return cucumbers to their former place earlier than after 4 years;
+-to air the greenhouse in a timely manner;
+-time to remove all plant residues from the beds;
+- Do not water cucumbers with cold water by sprinkling."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="-for 4-5 days, stop watering the plants;
+- if the average daily temperature drops below +18°C, try to raise the temperature to at least + 20°C - for example, by closing the greenhouses for the night and covering the plants in the soil with foil;
+- treat the plants with a 1 solution of Bordeaux liquid, a 0.4 solution of copper oxychloride, =Fundazol= or a solution based on the preparation =Oxych=, for preparation of which mix 20 g of the preparation with 10 liters of warm water."/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:padding="10dp"
+                    android:text="Sclerotinia - White Rot"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases6"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Description"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="At first, multiple white bodies appear on all affected areas of the plant, which eventually become dark, even black? Then the leaves, the stems and even the fruits of the plant are covered with a continuous white bloom, become licky, soften and rot? This is sclerotinia, which is often called white rot."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="20dp"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The source of the disease is sclerotia - fungi that hibernate in the soil and quickly spread when the soil is too moist and the air is too humid"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- do not thicken the crops of cucumbers;
+- observe crop rotation - do not sow cucumbers in the same place earlier than in 4 years; be sure to alternate between different cultures;
+- in a timely manner remove plant residues from the beds."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="First of all, cut out parts of plants affected by sclerotinia to healthy tissue, and cut the cuts themselves with lime or crushed charcoal. If the disease has spread strongly, remove all infected parts of the plants or plants completely
+Feed the cucumbers with a nutrient solution consisting of 10 liters of warm water, 10 g of urea and 1 g of zinc sulfate and copper sulphate."/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Gray rot"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/diseases7"
+                    android:layout_gravity="center"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Description"
+                    android:textColor="@color/darkgreen"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Leaves, stems or even flowers of cucumbers were covered with brown blurry watery, quickly merging spots with a smoky gray bloom? This is manifested by gray mold - a bacterial disease affecting all parts of the plant."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Causes of occurances"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The main reasons for the development of gray rot are waterlogging and low temperatures."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to warn"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- do not thicken the crops of cucumbers and observe crop rotation;
+- in a timely manner, remove plant residues from the beds, on which the infection persists;
+- take timely protective measures."
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Quick fight against the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="If the disease has just begun to spread, treat the affected areas with a fungicide, for example, Rovral paste, which includes contact preparations against gray rot, or Byleton.Immediately remove affected fruit, leaves and plant stems."/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

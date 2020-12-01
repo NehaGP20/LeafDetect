@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BiologicalFeatures"
+    android:background="@drawable/bc"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     Biological Features"
+            android:textStyle="bold"
+            android:fontFamily="@font/font4"
+            android:padding="15dp"
+            android:textSize="26dp"
+            android:textColor="#ffffff"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="#014704"
+                    android:text="Relation to temperature"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Like all pumpkin, cucumber is a very thermophilic culture. He does not tolerate frost. Seeds begin to germinate at a temperature of + 12 ... + 13 °C, but the optimum temperature is + 25 + 30 °C. Of course, as a rule, there is no such temperature when sowing, therefore the temperature of + 17 + 18 °C is considered permissible for obtaining seedlings. The optimum temperature for growth and development before fruiting is + 24 + 28 °С on a sunny day, + 18 ... 22 °C - overcast, at night it is desirable - not less than +12 C. With fruiting, the optimum temperature is slightly higher: + 24 + 30 °C during the day and above + 16 °C - at night."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daytime temperatures below + 10 °C, depending on the duration, lead to organ damage or plant death. 3-4 days at a temperature of + 3 °C leads to the death of plants. Such a demanding attitude to heat will determine, first of all, the early and late dates of sowing."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Relation to light"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cucumber is a short-day plant and a light-loving plant. Increasing light leads to higher yields. In the protected ground, for this purpose, additional lighting is used, and in the open, well-illuminated fields are selected and regulation of the plant standing is optimal."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Relation to Moisture"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cucumber is demanding of soil moisture and relative air humidity. The optimum relative humidity of air is 80-90%. The optimum soil moisture in the period of leaf surface growth is 70-80% HB (Least moisture content), in the flowering period - 55-60% HB (under such conditions the fertilization process is more successful). The lack of moisture in the soil stops the growth of plants, contributes to the displacement of the floor of flowers in the male side and the appearance of bitterness in the fruit. It is detrimental to the culture and the over moistening of the soil, leading to the death of the roots (the roots also breathe and for this they need oxygen). Cucumber is a culture that very strongly reacts even to short-term flooding."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Relation to soil and nutrients"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The best soil for cucumber is light fertile, high humus content. Cucumber requires a neutral environment: the best soil pH = 6.4 ... 7. The removal of batteries in cucumber is relatively small: it is N - 3, Р2О5 - 1,2, К2О - 3,2 kg/ton of products, and the removal of elements on different soils is different. However, the peculiarity of cucumber is that it very quickly forms the above-ground mass, and therefore absorbs nutrients very quickly. At the same time in the soil requires their constant presence, especially when you consider that the main root system is located in the arable layer. But another feature of cucumber is that it does not tolerate a high concentration of soil solution. Therefore - to fertilize fractionally, in the form of top dressing."
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

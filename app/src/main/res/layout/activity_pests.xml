@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pests"
+    android:background="@drawable/bc">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pests of Cucumber"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textSize="27dp"
+            android:fontFamily="@font/font4"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Gourd aphid"
+                    android:textSize="20dp" />
+
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pests1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="The adult individual of the pest winters on the leaves of weeds dwells in the same place on the weeds in spring and early summer and then moves to the lower side of a cucumber leaf or another melon plant. Signs of damage to melon gummy: damaged leaves curl, flowers and ovaries fall."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Protection methods"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Agrotechnical method"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Preventive measures -
+In the off-season period, aphids can survive only on weeds, the complete elimination of which allows for a long period to delay the time when T aphids appeared on crops. During the growing season of plants, the largest a number of pests is observed near greenhouses.Therefore, to reduce the harmfulness of aphids in to field conditions, it is necessary to effectivelyO combat it in greenhouses."
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text=" Biological method "
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Pepper - 100 g of red pepper insist in 10 liters of water for 2 hours. Dates - when the appearance of ruts aphids."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Soda ash bath -
+Dissolve 1 tablespoon of soda in 1 l of water and spray immediately. Dates - when the appearance of ruts aphids."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Garlic -
+150-200 g garlic grind through a meat grinder and stir in 10 liters of water. Dates - when the appearance of ruts aphids"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Potatoes topping - 1.2 kg of green tops or 600-800 g dry insist in 10 liters of warm water for 3-4 hours. Dates - when the appearance of ruts aphids."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Burdock -
+Fill 1/3 of the bucket with finely chopped burdock leaves and pour water to the top. Insist 3 days, strain and use."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Infusion ash -
+200-300 g of ash pour boiling water, let stand until it cools, then strain, add soap."/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text=" Chemical method "
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Mospilan - The consumption rate of the drug 0,250-0,300 kg / ha + 200-400 liters of water. Spraying during the growing season."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Confidor - The consumption rate of the drug is 0.15-0.2 l / ha + 200-400l of water. Spraying during the growing season."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="BI-58 - The consumption rate of the drug 0.5 l / ha + 200-400 l of water. Spraying during the growing season."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Angio - The consumption rate of the drug 0.150 l / ha + 200-300 l of water. Spraying during the growing season."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Karate - The consumption rate of the drug is 0.2-0.4 l / ha + 200-400 l of water. Spraying during the growing season."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Sprout fly"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pests2" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="The gray color of insects with a longitudinal dark line on the belly, up to 7 millimeters long. Whitish larvae, up to 7 millimeters in length, tapered towards the front end. Pupae of flies winter in the soil on crops of grain, vegetable crops, and clover. Flies take off in May, in the spring, when the birch begins to bloom. Eggs are laid under the lumps of soil in the second half of May, preferring the most humid soil in which the manure is poorly embedded. For the emergence of larvae need a maximum of 10 days. They damage sprouting germinating seeds and seedlings from plants of different cultures. In cucumber shoots, they, piercing the subfloor knee, penetrate into the middle of the stalk. At the end of the feeding, they pupate after 14-16 days. Over the course of the season, about 3 generations of the germ fly develop."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Protection methods"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Agrotechnical method"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Sowing seeds in optimal time"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="1. Carefully close manure 2. Sowing of seeds to carry out in optimum terms (seeds should be ground up not deeply, however very carefully)"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Chemical method"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Actellic - The consumption rate of the drug is 0.3-1.5 l / ha + 200-400 l of water. Processing time - shoots."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="BI-58 - The consumption rate of the drug 0.5 l / ha + 200-400 l of water. Processing time - shoots."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Nurell-D - The consumption rate of the drug is 0.5-0.7 l / ha + 200-400 l of water. Processing time - shoots."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Spider mite"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pests3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="The pest wraps around the bottom side of the cucumber leaf, where it settles. Insects are small in size (up to 0.4 millimeters), so they can not always be immediately detected with the naked eye. The juice of cucumber leaves is food for insects, so the leaves turn yellow and dry out prematurely. Females spend the winter under the clods of earth, fallen leaves and in the cracks of buildings. Reproduction occurs continuously throughout the entire period of spring-summer."
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Protection methods"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Biological method"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Garlic - 150-200 g of garlic grind through a meat grinder and dilute with 10 liters of water. Apply immediately after preparation."
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="6dp"
+                    android:text="Potato tops - 1.2 kg of green tops or 600-800 g dry insist in 10 liters of warm water for 3-4 hours"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Gorchak pink - 1 kg of crushed green stalks pour 10 liters of water and boil for 30 minutes. Sue, strain, add 30 g of soap."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The use of entomophagy - Gilded eye up to 150 units on 0.1 hectares."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text=" Chemical method "
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Vertimek - The consumption rate of the drug is 0.2-0.3 l / ha + 300-400 l of water. Processing time - shoots."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Tiovit jet - The consumption rate of the drug is 2-3 kg/ha + 400-600 l of water. Processing time - shoots."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Angio - The consumption rate of the drug 0,100 - 0,150 l / ha + 200-300 l of water. Processing time - shoots."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

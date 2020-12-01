@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsingChemicals"
+    android:background="@drawable/bc"
+    android:alpha="0.9"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oraganic Fertilizer for cucumbers"
+            android:fontFamily="@font/font4"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:text="Bread dressing for cucumbers"
+                    android:textColor="@color/darkgreen"
+                    android:textStyle="bold"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/agro1"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Kindness of bread can rightly be considered one of the most popular and simple for feeding cucumbers. There is bread at home for everyone."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to cook"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="To prepare high-quality fertilizer for cucumbers from bread, fill an ordinary bucket for 2/3 with sliced crusts of ordinary black bread, cover with water and place under a press in a warm place for about 7-10 days."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="To properly use the resulting bread sourdough, dilute it three times and add 1 matchbox of universal fertilizer to 12 liters of liquid"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="With this tool you can water cucumbers from the beginning of flowering and until the beginning of wilting every 7 days."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Feeding cucumber ash"
+                    android:textStyle="bold"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/agro2"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Ash is an excellent organic fertilizer, the exact chemical composition of which is difficult to determine in advance.The fact is that it depends on the type and age of the burnt plant. However, calcium is always present in the ashes, which is so necessary for the growth of cucumbers."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Mode of application:"
+                    android:textStyle="bold"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Bring ashes only 5-6 times during the period of growth of cucumbers. The first time this is done at the very beginning of the formation of the plant, when 2-3 leaves appear on the stem, the next time - at the beginning of flowering, and only then as the fruits grow at intervals of 14 days between dressings."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Ash can be used in two forms:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- dry ash"/>;
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- ash infusion."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Sprinkle the soil with dry ash before watering the plants. To make ash infusion pour 10 tbsp. ash 5 liters of water and insist 8-10 days, regularly stirring the composition."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:text="Practical tips for feeding ash on cucumbers"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- Any fertilizing of cucumbers spend only in warm weather after watering the plants, so as not to harm the root system of plants."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- It is impossible to add ash and nitrogen-containing compounds at the same time - a lot of ammonia will be released, and the plants may die."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="- For categorical dressings, it is forbidden to use ashes, which are obtained after burning polymers, rubber, paper, and garbage."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Yeast feed for cucumbers"
+                    android:textStyle="bold"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/agro3"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Yeast top dressing for cucumbers is used quite often, because it has many advantages:"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- increases the endurance of seedlings with a lack of light;"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- improves root formation;"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- is a source of natural bacteria that increase the immunity of plants;"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- is an excellent plant growth stimulant."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:text="How to cook"
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="It is easy and simple to prepare fertilizer from yeast:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- Take 10 g of dry yeast and dissolve them in 10 liters of warm water,"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- add about 2 tbsp to the solution. Sahara;"/>;
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- let it stand for 2-2.5 hours and dilute with 50 liters of water."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:text="Mode of application:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Cucumbers respond well to yeast dressings, after their use they quickly build up the vegetative mass and fruit ovaries.For all the time of cultivation, use this fertilizer no more than 2 times:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- approximately 12-14 days after transplanting seedlings to the ground;"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- after phosphoric feeding."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:text="Feeding cucumber chicken droppings"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/agro4"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="This type of fertilizer can rightly be considered one of the most affordable for any site owner. In addition, chicken manure contains a large number of nutrients that are important and necessary for plants, such as phosphorus, nitrogen, zinc, and copper."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:text="In what cases to apply."
+                    android:textSize="16dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="It is possible to apply this fertilizer both in diluted form, and in dry."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Experienced gardeners advise using fertilizer based on chicken manure 3 times per season:"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- the first time - in May-June (at the beginning of the growing season);"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- the second time - during flowering;"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- the third time - during flowering;"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Using dry chicken dung is easy and simple. It is better to do this at the beginning or end of the season. You can use whole or crushed droppings."
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Add it to the soil for digging at the rate of 500 g per 1 sq.m. Often gardeners use an infusion of chicken manure on their plots. Prepare it easy"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- fill the tank with 1/3 chicken droppings and add water to the top;"/>
+                android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="- let the mixture stand for 2-4 days, stirring it constantly,"
+                    android:textSize="14dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Dilute the finished fertilizer with water (1:3 or 1: 4) and add 1.5 liters per 1 square meter to the beds."
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgreen"
+                    android:text="Top dressing cucumbers Zelenko and iodine"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/agro5"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="In search of safe and effective solutions, summer residents find unusual uses for familiar means and things. So, experienced gardeners successfully use iodine and brilliant green to combat various diseases of cucumbers." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="To get rid of the root rot, first dilute 10 drops of brilliant green in a bucket of water and water the plants with this solution. Then dissolve 10 ml of iodine in 10 liters of water and also spray the shoots and leaves of cucumbers with this composition."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="Another option of using these products also allows you to protect plants from root rot: 1 part of iodine or brilliant green dissolve in 2 parts of water and lubricate the stem of cucumber 10 cm from the ground with the resulting solution. Only two such treatments are enough to get rid of the fungus causing the disease."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="The secret of zelenka and its antiseptic properties in copper, which is part of the drug. Copper not only protects plants, but is also an excellent fertilizer for cucumbers. Such fertilizer will be especially useful in swampy soils."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="A simple recipe can save you from powdery mildew on cucumbers: mix 9 liters of water and 1 liter of low-fat milk, dissolve 10-12 drops of iodine in them and process the plants with the resulting solution."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            CardView_cardBackgroundColor="#ffffff"
+            CardView_cardCornerRadius="18dp"
+            CardView_cardElevation="5dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/darkgreen"
+                    android:text="Home-made fertilizer for cucumbers"
+                    />
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/agro6"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:text="To an effective and simple home fertilizer for cucumbers can be attributed, and the infusion of onion peel. Such top dressing is especially relevant if the leaves start to turn yellow in the plants." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="To prepare the infusion, pour a glass of onion peel 8 liters of water, put on the fire, bring to a boil and cover with a lid. Let the mass infuse for 3-4 hours. Then strain the infusion and pour it under the root of cucumbers. If you irrigate plants with such composition, then you will get an excellent foliar top dressing, which, moreover, will protect cucumbers from various diseases." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/darkgreen"
+                    android:textStyle="bold"
+                    android:text="Means against yellowing of leaves in cucumbers" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- From the premature yellowing of the leaves of cucumbers can save the solution of ordinary soda. Just dilute 1 tbsp. I soda in 10 liters of water and pour a solution of their landing."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="- From the premature yellowing of the leaves of cucumbers can save the solution of ordinary soda. Just dilute 1 tbsp. I soda in 10 liters of water and pour a solution of their landing. If 1 tsp. soda dissolve in 1 liter of water and spray cucumbers with this compound, then you will receive an excellent prophylactic against powdery mildew."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textSize="14dp"
+                    android:textColor="@color/black"
+                    android:text="-You can also stop the yellowing of cucumber leaves with kefir. To do this, dilute 2 liters of kefir in a bucket of water and spray your plants with the resulting composition."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

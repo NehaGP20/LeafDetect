@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderDetails"
+    android:orientation="vertical"
+    android:background="@drawable/leaf">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Order!!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:padding="20dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#010102"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="items will be placed here"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:padding="12dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/listView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="=price will be here"
+        android:textColor="@color/black"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:id="@+id/priceView"/>
+
+</LinearLayout>

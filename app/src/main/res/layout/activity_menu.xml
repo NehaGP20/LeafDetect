@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@drawable/menu_bc"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:text="Cucumber Info"
+        android:fontFamily="@font/font4"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="33sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:id="@+id/btn_desc"
+        android:textAllCaps="false"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biological features"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_biofea"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textAllCaps="false"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seeds"
+        android:id="@+id/btn_seeds"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Growing Cucumber"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:id="@+id/btn_cucm"
+        android:textAllCaps="false"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diseases"
+        android:id="@+id/btn_disease"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:textAllCaps="false"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pests"
+        android:id="@+id/btn_pest"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fertilizers"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:id="@+id/btn_fert"
+        android:textAllCaps="false"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organic Fertilizers"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_chem"
+        android:textAllCaps="false"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="12dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leaf infection Detection"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/font4"
+        android:id="@+id/btn_detec"
+        android:background="#9A08AE0F"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="12dp"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
